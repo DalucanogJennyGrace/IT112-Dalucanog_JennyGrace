@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("==================================\n");
-    printf("        STUDENT PROFILE         \n");
+    printf("=================================\n");
+    printf("         STUDENT PROFILE          \n");
     printf("==================================\n");
     printf("  Name: Jenny Grace J. Dalucanog  \n");
     printf("  Course and Section: BSIT-1R13   \n");
