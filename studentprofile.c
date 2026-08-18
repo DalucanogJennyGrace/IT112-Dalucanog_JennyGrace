@@ -2,13 +2,13 @@
 
 int main() {
     printf("================================\n");
-    printf("                STUDENT PROFILE\n");
-    printf("================================\n");
-    printf("Name: Jenny Grace J. Dalucanog\n");
-    printf("Course and Section: BSIT-1R13\n");
-    printf("Year Level: 1st Year\n");
-    printf("================================\n");
-    printf("             SOFTWARE DEVELOPER\n");
-    printf("================================\n");
+    printf("         STUDENT PROFILE.         \n");
+    printf("==================================\n");
+    printf("  Name: Jenny Grace J. Dalucanog  \n");
+    printf("  Course and Section: BSIT-1R13   \n");
+    printf("      Year Level: 1st Year        \n");
+    printf("==================================\n");
+    printf("        SOFTWARE DEVELOPER        \n");
+    printf("==================================\n");
     return 0;
 }
