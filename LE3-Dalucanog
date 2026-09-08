@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+        char name[50];
+        char section[20];
+        double n1, n2, sum, sub, mul, div;
+        
+        printf("Enter Complete Name: ");
+        scanf(" %[^\n]", name);
+        printf("Enter Section: ");
+        scanf(" %[^\n]", section);
+        printf("\nEnter first number: ");
+        scanf("%lf", &n1);
+        printf("Enter second number: ");
+        scanf("%lf", &n2);
+          
+          sum = n1 + n2; sub = n1 - n2; mul = n1 * n2; div = n1 / n2;
+           
+           printf("\n     Student Calculator\n");
+           printf("Student name: %s\nSection: %s\nResults:\n", name, section);
+           printf("%.0f + %.0f = %.0f\n", n1, n2, sum);
+           printf("%.0f - %.0f = %.0f\n", n1, n2, sub);
+           printf("%.0f * %.0f = %.0f\n", n1, n2, mul);
+           printf("%.0f / %.0f = %.2f\n", n1, n2, div);
+    return 0;
+}
